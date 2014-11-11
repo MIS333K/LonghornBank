@@ -41,7 +41,7 @@
 
           <div id="footer">
                 <div id="left_footer">
-                    <asp:Label ID="Label1" runat="server" Text="Site Map"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Footer Stuff"></asp:Label>
                 </div>
                 <div id="right_footer">
                 </div>
