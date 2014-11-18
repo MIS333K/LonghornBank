@@ -11,95 +11,95 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class CusHome
+Partial Public Class CusNewAcc
 
     '''<summary>
-    '''lnkDeposit0 control.
+    '''Label2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkDeposit0 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''lnkTransfer control.
+    '''ddlAccTyp control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkTransfer As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents ddlAccTyp As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''lnkPayment control.
+    '''Label3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkPayment As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''lnkNewAcc control.
+    '''txtAccName control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkNewAcc As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents txtAccName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''lnkModify control.
+    '''Label4 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkModify As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''gvViewAll control.
+    '''txtAccNum control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvViewAll As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents txtAccNum As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''gvCheAcc control.
+    '''txtIniDep control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvCheAcc As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents txtIniDep As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''gvSavAcc control.
+    '''lblError control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvSavAcc As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''gvIRAS control.
+    '''txtCancel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvIRAS As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents txtCancel As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''gvStoPor control.
+    '''txtConfirm control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvStoPor As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents txtConfirm As Global.System.Web.UI.WebControls.Button
 End Class

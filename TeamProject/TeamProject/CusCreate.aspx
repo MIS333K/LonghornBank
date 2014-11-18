@@ -4,6 +4,7 @@
         .auto-style1
         {
             text-align: left;
+            height: 507px;
         }
         .auto-style2
         {
@@ -32,6 +33,7 @@
             <asp:TextBox ID="txtBirth" runat="server" Height="16px" MaxLength="10" ReadOnly="True" TextMode="Date" Width="102px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ClientIDMode="Static" ControlToValidate="TxtEmail" ErrorMessage="Email required">*</asp:RequiredFieldValidator>
             <br />
+            <br />
             <asp:Label ID="Label5" runat="server" Text="Address: "></asp:Label>
             <asp:TextBox ID="txtAddress" runat="server" ReadOnly="True"></asp:TextBox>
             <br />
@@ -48,6 +50,7 @@
             <asp:TextBox ID="txtPhone" runat="server" MaxLength="2" ReadOnly="True" TextMode="Phone" Width="97px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ClientIDMode="Static" ControlToValidate="TxtEmail" ErrorMessage="Email required">*</asp:RequiredFieldValidator>
             <br />
+            <br />
             <asp:Label ID="Label10" runat="server" Text="Email Address: "></asp:Label>
             <asp:TextBox ID="txtEmail" runat="server" MaxLength="9" ReadOnly="True"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ClientIDMode="Static" ControlToValidate="TxtEmail" ErrorMessage="Email required">*</asp:RequiredFieldValidator>
@@ -60,20 +63,15 @@
             <asp:TextBox ID="txtConfirmPass" runat="server" ReadOnly="True"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ClientIDMode="Static" ControlToValidate="TxtEmail" ErrorMessage="Email required">*</asp:RequiredFieldValidator>
             <br />
-            <asp:Label ID="Label14" runat="server" Text="Accounts: "></asp:Label>
-        </div>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server" style="text-align: left">
-            <asp:ListItem>Checking Account</asp:ListItem>
-            <asp:ListItem>Savings Account</asp:ListItem>
-            <asp:ListItem>Individual Retirement Accounts</asp:ListItem>
-            <asp:ListItem>Stock Portfolios</asp:ListItem>
-        </asp:RadioButtonList>
-        <br />
+            <br />
+            <asp:Label ID="lblError" runat="server"></asp:Label>
+            <br />
         <asp:Button ID="btnCancel" runat="server" CausesValidation="False" Text="Cancel" Visible="False" Width="135px" />
-&nbsp;
+&nbsp;&nbsp;&nbsp;
         <asp:Button ID="btnConfirm" runat="server" CausesValidation="False" Text="Confirm and Continue" Visible="False" Width="135px" />
+        </div>
         <br />
-        <br />
+&nbsp;<br />
         <br />
     </div>
 </asp:Content>

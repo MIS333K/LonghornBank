@@ -58,6 +58,11 @@
         <strong>
         <asp:TextBox ID="txtViewEmail" runat="server" MaxLength="9" ReadOnly="True" CssClass="auto-style3" Enabled="False"></asp:TextBox>
         <br />
+        </strong>
+        <asp:Label ID="Label27" runat="server" Text="Password:"></asp:Label>
+        <strong>
+        <asp:TextBox ID="txtPassword" runat="server" ReadOnly="True" Enabled="False"></asp:TextBox>
+        <br />
         <br />
         <br />
         Modify Personal Information</strong><br />
@@ -110,6 +115,9 @@
         <br />
         <asp:Label ID="Label25" runat="server" Text="New Account Name: "></asp:Label>
         <asp:TextBox ID="txtNewAccName" runat="server" ReadOnly="True"></asp:TextBox>
+        <br />
+        <br />
+            <asp:Label ID="lblError" runat="server"></asp:Label>
         <br />
     </div>
     <br />

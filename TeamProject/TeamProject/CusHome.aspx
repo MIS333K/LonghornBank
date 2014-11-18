@@ -13,6 +13,19 @@
     <strong>
     <br />
     <br />
+    Services<br />
+    <asp:LinkButton ID="lnkDeposit0" runat="server" PostBackUrl="~/CusDeposit.aspx">Make a Deposit</asp:LinkButton>
+    <br />
+    <asp:LinkButton ID="lnkTransfer" runat="server">Make a Transfer</asp:LinkButton>
+    <br />
+    <asp:LinkButton ID="lnkPayment" runat="server">Make a Payment</asp:LinkButton>
+    <br />
+    <asp:LinkButton ID="lnkNewAcc" runat="server">New Account</asp:LinkButton>
+    <br />
+    <asp:LinkButton ID="lnkModify" runat="server" PostBackUrl="~/CusModify.aspx">Manage Accounts</asp:LinkButton>
+    <br />
+    View Accounts<br />
+    <br />
     <br />
     View All Accounts<br />
     <asp:GridView ID="gvViewAll" runat="server">
@@ -37,5 +50,5 @@
     Stock Portfolio<br />
     <asp:GridView ID="gvStoPor" runat="server">
     </asp:GridView>
-    <br /></strong>
+    </strong>
 </asp:Content>
