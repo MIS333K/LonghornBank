@@ -156,10 +156,8 @@
     <Content Include="CusPayment.aspx" />
     <Content Include="CusSavAcc.aspx" />
     <Content Include="CusStoPor.aspx" />
-    <Content Include="Customer.aspx" />
     <Content Include="CusTransfer.aspx" />
     <Content Include="fakelogo.jpg" />
-    <Content Include="Home.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -234,25 +232,11 @@
       <DependentUpon>CusStoPor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Customer.aspx.designer.vb">
-      <DependentUpon>Customer.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Customer.aspx.vb">
-      <DependentUpon>Customer.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="CusTransfer.aspx.designer.vb">
       <DependentUpon>CusTransfer.aspx</DependentUpon>
     </Compile>
     <Compile Include="CusTransfer.aspx.vb">
       <DependentUpon>CusTransfer.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Home.aspx.designer.vb">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Home.aspx.vb">
-      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MasterPage.Master.designer.vb">
