@@ -14,14 +14,17 @@
     <span class="auto-style2"><strong>Make a Transfer</strong></span><br /><strong>
     <br />Transfer From:<asp:DropDownList ID="ddlFrom" runat="server">
     </asp:DropDownList>
-    <br />Deposit Amount: </strong>$<asp:TextBox ID="txtTransfer" runat="server"></asp:TextBox>
+    <br />Transfer Amount: </strong>$<asp:TextBox ID="txtTransfer" runat="server"></asp:TextBox>
     <strong>
+    <br />
+    Date for Transfer: <asp:TextBox ID="txtTraDat" runat="server" TextMode="Date"></asp:TextBox>
     <br />
     Transfer To:<asp:DropDownList ID="ddlTo" runat="server">
     </asp:DropDownList>
     <br />
     <br />
     <asp:Label ID="lblError" runat="server"></asp:Label>
+    <br />
     <br />
     <asp:Button ID="btnCancel" runat="server" Text="Cancel" />
 &nbsp;&nbsp;&nbsp;&nbsp;

@@ -59,6 +59,51 @@ Partial Public Class CusHome
     Protected WithEvents lnkModify As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
+    '''DropDownList1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''btnSort control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSort As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''txtSearch control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtSearch As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnSearch control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''lblError control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''gvViewAll control.
     '''</summary>
     '''<remarks>
@@ -66,40 +111,4 @@ Partial Public Class CusHome
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents gvViewAll As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''gvCheAcc control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents gvCheAcc As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''gvSavAcc control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents gvSavAcc As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''gvIRAS control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents gvIRAS As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''gvStoPor control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents gvStoPor As Global.System.Web.UI.WebControls.GridView
 End Class

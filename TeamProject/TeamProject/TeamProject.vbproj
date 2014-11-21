@@ -146,13 +146,108 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CusCheAcc.aspx" />
+    <Content Include="CusCreate.aspx" />
+    <Content Include="CusDeposit.aspx" />
+    <Content Include="CusHome.aspx" />
+    <Content Include="CusIRAS.aspx" />
+    <Content Include="CusModify.aspx" />
+    <Content Include="CusNewAcc.aspx" />
+    <Content Include="CusPayment.aspx" />
+    <Content Include="CusSavAcc.aspx" />
+    <Content Include="CusStoPor.aspx" />
+    <Content Include="Customer.aspx" />
+    <Content Include="CusTransfer.aspx" />
     <Content Include="fakelogo.jpg" />
     <Content Include="Home.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CusCheAcc.aspx.designer.vb">
+      <DependentUpon>CusCheAcc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusCheAcc.aspx.vb">
+      <DependentUpon>CusCheAcc.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusCreate.aspx.designer.vb">
+      <DependentUpon>CusCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusCreate.aspx.vb">
+      <DependentUpon>CusCreate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusDeposit.aspx.designer.vb">
+      <DependentUpon>CusDeposit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusDeposit.aspx.vb">
+      <DependentUpon>CusDeposit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusHome.aspx.designer.vb">
+      <DependentUpon>CusHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusHome.aspx.vb">
+      <DependentUpon>CusHome.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusIRAS.aspx.designer.vb">
+      <DependentUpon>CusIRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusIRAS.aspx.vb">
+      <DependentUpon>CusIRAS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusModify.aspx.designer.vb">
+      <DependentUpon>CusModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusModify.aspx.vb">
+      <DependentUpon>CusModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusNewAcc.aspx.designer.vb">
+      <DependentUpon>CusNewAcc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusNewAcc.aspx.vb">
+      <DependentUpon>CusNewAcc.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusPayment.aspx.designer.vb">
+      <DependentUpon>CusPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusPayment.aspx.vb">
+      <DependentUpon>CusPayment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusSavAcc.aspx.designer.vb">
+      <DependentUpon>CusSavAcc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusSavAcc.aspx.vb">
+      <DependentUpon>CusSavAcc.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusStoPor.aspx.designer.vb">
+      <DependentUpon>CusStoPor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusStoPor.aspx.vb">
+      <DependentUpon>CusStoPor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Customer.aspx.designer.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.aspx.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CusTransfer.aspx.designer.vb">
+      <DependentUpon>CusTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CusTransfer.aspx.vb">
+      <DependentUpon>CusTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
@@ -186,13 +281,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -222,6 +310,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Customers\Account Types\" />
+    <Folder Include="Customers\Applying\" />
+    <Folder Include="Customers\Create Account\" />
+    <Folder Include="Customers\Customer Home\" />
+    <Folder Include="Customers\Customer Support\" />
+    <Folder Include="Customers\Email\" />
+    <Folder Include="Customers\Modify Account\" />
+    <Folder Include="Customers\Overdrafts\" />
+    <Folder Include="Customers\Payments\" />
+    <Folder Include="Customers\Transactions\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

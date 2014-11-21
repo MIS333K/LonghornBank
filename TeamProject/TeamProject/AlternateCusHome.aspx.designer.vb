@@ -11,68 +11,95 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class CusTransfer
+Partial Public Class CusHome
 
     '''<summary>
-    '''ddlFrom control.
+    '''lnkDeposit0 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddlFrom As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents lnkDeposit0 As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''txtTransfer control.
+    '''lnkTransfer control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtTransfer As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lnkTransfer As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''txtTraDat control.
+    '''lnkPayment control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtTraDat As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lnkPayment As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''ddlTo control.
+    '''lnkNewAcc control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddlTo As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents lnkNewAcc As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''lblError control.
+    '''lnkModify control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lnkModify As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''btnCancel control.
+    '''gvViewAll control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnCancel As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents gvViewAll As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''btnConfirm control.
+    '''gvCheAcc control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnConfirm As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents gvCheAcc As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''gvSavAcc control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvSavAcc As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''gvIRAS control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvIRAS As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''gvStoPor control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvStoPor As Global.System.Web.UI.WebControls.GridView
 End Class

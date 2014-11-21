@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="CusHome.aspx.vb" Inherits="TeamProject.CusHome" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="AlternateCusHome.aspx.vb" Inherits="TeamProject.CusHome" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
 
@@ -12,6 +12,7 @@
     <span class="auto-style2"><strong>Customer Home</strong></span><br />
     <strong>
     <br />
+    <br />
     Services<br />
     <asp:LinkButton ID="lnkDeposit0" runat="server" PostBackUrl="~/CusDeposit.aspx">Make a Deposit</asp:LinkButton>
     <br />
@@ -23,31 +24,31 @@
     <br />
     <asp:LinkButton ID="lnkModify" runat="server" PostBackUrl="~/CusModify.aspx">Manage Accounts</asp:LinkButton>
     <br />
-    <br />
     View Accounts<br />
-    Sort By:
-    <asp:DropDownList ID="DropDownList1" runat="server">
-        <asp:ListItem Value="ddlSortDate">Date of Activity</asp:ListItem>
-        <asp:ListItem Value="ddlSortNam">Account Name</asp:ListItem>
-        <asp:ListItem Value="ddlSortChe">Checking Accounts</asp:ListItem>
-        <asp:ListItem Value="ddlSortSav">Savings Accounts</asp:ListItem>
-        <asp:ListItem Value="ddlSortIRAS">IRAS</asp:ListItem>
-        <asp:ListItem Value="ddlSortSto">Stock Portfolio</asp:ListItem>
-        <asp:ListItem Value="ddlSortDef">Default</asp:ListItem>
-    </asp:DropDownList>
-&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="btnSort" runat="server" Text="Sort" />
-    <br />
-    Search:
-    <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="btnSearch" runat="server" Text="Search" />
     <br />
     <br />
-    <asp:Label ID="lblError" runat="server"></asp:Label>
-    <br />
-    <br />
+    View All Accounts<br />
     <asp:GridView ID="gvViewAll" runat="server">
+    </asp:GridView>
+    <br />
+    <br />
+    Checking Accounts<br />
+    <asp:GridView ID="gvCheAcc" runat="server">
+    </asp:GridView>
+    <br />
+    <br />
+    Savings Accounts<br />
+    <asp:GridView ID="gvSavAcc" runat="server">
+    </asp:GridView>
+    <br />
+    <br />
+    Individual Retirement Accounts<br />
+    <asp:GridView ID="gvIRAS" runat="server">
+    </asp:GridView>
+    <br />
+    <br />
+    Stock Portfolio<br />
+    <asp:GridView ID="gvStoPor" runat="server">
     </asp:GridView>
     </strong>
 </asp:Content>
