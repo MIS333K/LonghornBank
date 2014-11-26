@@ -151,6 +151,7 @@
     <Content Include="Home.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="ManageCustomers.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountsManagement.aspx.designer.vb">
@@ -160,6 +161,7 @@
       <DependentUpon>AccountsManagement.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="ClassClientsDB.vb" />
     <Compile Include="Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
@@ -192,6 +194,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ManageCustomers.aspx.designer.vb">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCustomers.aspx.vb">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
