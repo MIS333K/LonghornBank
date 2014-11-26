@@ -2,17 +2,10 @@
  font-family: Corbel;
  width: 100%;
 }
-a{
-  text-decoration:none;
-  color:#d76708;
-}
 #header {
     background-color:white;
     width:100%;
-    height:10%;
     float: left;
-    border-bottom:solid;
-    border-bottom-color:lightgray;
 }
 #logo {
     width: 42%;
@@ -37,60 +30,6 @@ a{
     margin-left:12px;
     
 }
-#login {
-    width:30%;
-    margin-top:70px;
-    border:thin;
-    border-color:gray;
-}
-#customer_login {
-    text-align:center;
-    margin-top:20px;
-
-}
-#manager_login {
-    text-align:center;
-    margin-top:20px;
-
-}
-#toggle {
-    text-align: center;
-    border:thin;
-    border-color: lightgray;
-}
-
-#accounts {
-    width:100%;
-}
-#checking {
-    width:24%;
-    float:left;
-    position:relative;
-    border:thin;
-    border-color:gray;
-}
-#savings {
-    width:24%;
-    position:absolute;
-    float:left;
-    border:thin;
-    border-color:gray;
-}
-#IRA {
-    width:24%;
-    position:absolute;
-    float:left;
-   border:thin;
-    border-color:gray;
-}
-#stockportfolio {
-    width:24%;
-    margin-left:78%;
-    float:right;
-    border:thin;
-    border-color:gray;
-}
-
 #footer {
     width: 100%;
 }
