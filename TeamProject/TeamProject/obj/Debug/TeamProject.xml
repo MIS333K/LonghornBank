@@ -6,6 +6,34 @@ TeamProject
 </name>
 </assembly>
 <members>
+<<<<<<< HEAD
+<member name="P:TeamProject.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:TeamProject.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:TeamProject.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:TeamProject.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:TeamProject.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:TeamProject.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:TeamProject.AccountsManagement.Label1">
+=======
 <member name="F:TeamProject.Home.form1">
 	<summary>
 form1 control.
@@ -807,6 +835,7 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:TeamProject.MasterPage.Label1">
+>>>>>>> origin/master
 	<summary>
 Label1 control.
 </summary>
@@ -1014,142 +1043,249 @@ Label4 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.head">
+	<summary>
+head control.
+=======
 </member><member name="F:TeamProject.CusModify.txtInitial">
 	<summary>
 txtInitial control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.form1">
+	<summary>
+form1 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label5">
 	<summary>
 Label5 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.LinkButton5">
+	<summary>
+LinkButton5 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtAddress">
 	<summary>
 txtAddress control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.LinkButton1">
+	<summary>
+LinkButton1 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label6">
 	<summary>
 Label6 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.LinkButton2">
+	<summary>
+LinkButton2 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtCity">
 	<summary>
 txtCity control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.LinkButton3">
+	<summary>
+LinkButton3 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label7">
 	<summary>
 Label7 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.LinkButton4">
+	<summary>
+LinkButton4 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtState">
 	<summary>
 txtState control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label8">
 	<summary>
 Label8 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.MasterPage.Label1">
+	<summary>
+Label1 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtZip">
 	<summary>
 txtZip control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.lnkCustomerToggle">
+	<summary>
+lnkCustomerToggle control.
+=======
 </member><member name="F:TeamProject.CusModify.Label9">
 	<summary>
 Label9 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.lnkManagerToggle">
+	<summary>
+lnkManagerToggle control.
+=======
 </member><member name="F:TeamProject.CusModify.txtPhone">
 	<summary>
 txtPhone control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.CustomerLoginPanel">
+	<summary>
+CustomerLoginPanel control.
+=======
 </member><member name="F:TeamProject.CusModify.Label10">
 	<summary>
 Label10 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.Label1">
+	<summary>
+Label1 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtEmail">
 	<summary>
 txtEmail control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.TextBox1">
+	<summary>
+TextBox1 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label11">
 	<summary>
 Label11 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.Label2">
+	<summary>
+Label2 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtCurrentPass">
 	<summary>
 txtCurrentPass control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.TextBox2">
+	<summary>
+TextBox2 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label13">
 	<summary>
 Label13 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.btnCustomerLogin">
+	<summary>
+btnCustomerLogin control.
+=======
 </member><member name="F:TeamProject.CusModify.txtNewPass">
 	<summary>
 txtNewPass control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.LinkButton1">
+	<summary>
+LinkButton1 control.
+=======
 </member><member name="F:TeamProject.CusModify.Label14">
 	<summary>
 Label14 control.
@@ -1201,67 +1337,115 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:TeamProject.CusModify.Label25">
 	<summary>
 Label25 control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.LinkButton2">
+	<summary>
+LinkButton2 control.
+=======
 </member><member name="F:TeamProject.CusModify.txtNewAccName">
 	<summary>
 txtNewAccName control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.ManagerLoginPanel">
+	<summary>
+ManagerLoginPanel control.
+=======
 </member><member name="F:TeamProject.CusModify.lblError">
 	<summary>
 lblError control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.Label3">
+	<summary>
+Label3 control.
+=======
 </member><member name="F:TeamProject.CusModify.btnCancel">
 	<summary>
 btnCancel control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.TextBox3">
+	<summary>
+TextBox3 control.
+=======
 </member><member name="F:TeamProject.CusModify.btnSave">
 	<summary>
 btnSave control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.Label4">
+	<summary>
+Label4 control.
+=======
 </member><member name="F:TeamProject.CusDeposit.ddlAccount">
 	<summary>
 ddlAccount control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.TextBox4">
+	<summary>
+TextBox4 control.
+=======
 </member><member name="F:TeamProject.CusDeposit.txtDeposit">
 	<summary>
 txtDeposit control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.btnManagerLogin">
+	<summary>
+btnManagerLogin control.
+=======
 </member><member name="F:TeamProject.CusDeposit.lblError">
 	<summary>
 lblError control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:TeamProject.Home.LinkButton3">
+	<summary>
+LinkButton3 control.
+=======
 </member><member name="F:TeamProject.CusDeposit.btnCancel">
 	<summary>
 btnCancel control.
@@ -1361,6 +1545,7 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:TeamProject.CusHome.gvViewAll">
 	<summary>
 gvViewAll control.
+>>>>>>> origin/master
 </summary>
 	<remarks>
 Auto-generated field.

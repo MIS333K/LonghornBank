@@ -160,6 +160,7 @@
     <Content Include="fakelogo.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="ManageCustomers.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CusCheAcc.aspx.designer.vb">
@@ -169,8 +170,14 @@
       <DependentUpon>CusCheAcc.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="ClassClientsDB.vb" />
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+=======
     <Compile Include="CusCreate.aspx.designer.vb">
       <DependentUpon>CusCreate.aspx</DependentUpon>
+>>>>>>> origin/master
     </Compile>
     <Compile Include="CusCreate.aspx.vb">
       <DependentUpon>CusCreate.aspx</DependentUpon>
@@ -264,6 +271,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ManageCustomers.aspx.designer.vb">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCustomers.aspx.vb">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
